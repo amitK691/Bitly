@@ -1,0 +1,87 @@
+body{
+		position: relative;
+		height: 300px;
+		background-color: grey;
+	}
+	form{
+		position: absolute;
+		top: 30%;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+		text-align: center;
+	}
+	button{
+		width:10%;
+		background-color:#3f96c8;
+		border: none;
+		border-radius: 10px;
+		color: white;
+		letter-spacing: 1px;
+		height: 52px;
+	}
+	input{
+		height: 42px;
+		border: none; /* <-- This thing here */
+		border:solid 1px #ccc;
+		border-radius: 18px;
+		width: 65%;
+		/*border: none;*/
+	}
+	.alert{
+		float: right;
+		background-color: #f186a9b5;
+		color: aliceblue;
+		letter-spacing: 2px;
+		/*padding: 2px;*/
+	}
+	.found_content{
+		position: absolute;
+		top: 100%;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+
+	.table td,tr{
+		border: 1px solid black;
+		padding: 10px;
+		overflow: hidden;
+	}
+	.table-wrapper{
+	    margin: auto;
+	    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+	    position: absolute;
+	    top: 100%;
+	}
+
+	.fl-table {
+	    border-radius: 5px;
+	    font-size: 12px;
+	    font-weight: normal;
+	    border: none;
+	    border-collapse: collapse;
+	    /*width: 100%;*/
+	    /*max-width: 100%;*/
+	    background-color: white;
+	}
+
+	.fl-table td, .fl-table th {
+	    padding: 8px;
+	}
+
+	.fl-table td {
+	    border-right: 1px solid #ada7a7;
+	    font-size: 12px;
+	}
+
+	.fl-table thead th {
+	    color: #ffffff;
+	    background: #4FC3A1;
+	}
+
+	.fl-table thead th{
+	    color: #ffffff;
+	    background: #324960;
+	}
